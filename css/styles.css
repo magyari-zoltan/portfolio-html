@@ -23,35 +23,6 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 1140px) {
-    .home-section {
-        height: 100vh;
-        background-image: url('../images/profile-bg.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center right;
-    }
-
-    .rounded-profile-picture {
-        display: none;
-    }
-
-    .introduction {
-        width: 40%;
-        margin: 8% auto auto 8%;
-    }
-
-    .introduction .title {
-        width: 100%;
-        color: var(--gray-4);
-    }
-
-    .introduction .button {
-        color: var(--gray-9);
-        background-color: var(--gray-1);
-    }
-}
-
 /*----------------------------------- ABOUT ----------------------------------*/
 .about-section {
     background-color: var(--gray-0);
@@ -68,35 +39,6 @@ footer {
 
 .about-section .button-group {
     margin-top: 3.5rem;
-}
-
-@media (min-width: 800px) {
-    .information {
-        display: grid;
-        grid-template-columns: auto 50rem;
-        gap: 2rem;
-    }
-}
-
-@media (min-width: 960px) {
-    .information {
-        display: grid;
-        grid-template-columns: auto 48rem;
-        gap: 8rem;
-    }
-}
-
-@media (min-width: 1140px) {
-    .information {
-        margin-top: 9rem;
-        grid-template-columns: auto 50rem;
-    }
-}
-
-@media (min-width: 1400px) {
-    .information {
-        grid-template-columns: auto 65rem;
-    }
 }
 
 /*------------------------------------ PORTFOLIO -----------------------------*/
@@ -125,36 +67,6 @@ footer {
     width: 100%;
     border-radius: 5px;
     box-shadow: var(--shadow);
-}
-
-@media (min-width: 1140px) {
-    .portfolio-project {
-        display: grid;
-        grid-template-columns: 4fr 5fr;
-        justify-content: space-between;
-        align-items: center;
-        gap: 5rem;
-    }
-
-    .portfolio-project_title {
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 1400px) {
-    .portfolio-project-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 5rem;
-    }
-
-    .portfolio-project {
-        display: grid;
-        grid-template-columns: auto;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0px;
-    }
 }
 
 /*--------------------------------- CONTACT ----------------------------------*/
@@ -216,20 +128,4 @@ footer {
 .navicon .fa-circle-arrow-up.static-position {
     position: static;
     box-shadow: none;
-}
-
-@media (min-width: 540px) {
-    .footer {
-        grid-template-areas: 'information links';
-        justify-content: space-between;
-    }
-
-    .footer__information {
-        text-align: start;
-    }
-
-    .navicon-container {
-        justify-content: flex-end;
-        align-items: center;
-    }
 }

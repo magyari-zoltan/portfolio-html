@@ -75,21 +75,3 @@ span {
     margin-top: 2rem;
     font-size: 2rem;
 }
-
-@media (min-width: 800px) {
-    html {
-        font-size: 8px;
-    }
-}
-
-@media (min-width: 960px) {
-    html {
-        font-size: 9px;
-    }
-}
-
-@media (min-width: 1140px) {
-    html {
-        font-size: 10px;
-    }
-}

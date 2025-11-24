@@ -1,0 +1,10 @@
+@media (min-width: 960px) {
+
+/*----------------------------------- ABOUT ----------------------------------*/
+.information {
+	display: grid;
+	grid-template-columns: auto 48rem;
+	gap: 8rem;
+}
+
+}

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Title';
-    src: url('../fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf')
+    src: url('../fonts/Roboto/RobotoSlab-VariableFont_wght.ttf')
         format('truetype');
 }
 
@@ -21,9 +21,10 @@
     --gray-7: dimgray;
     --gray-8: #3d3a38;
     --gray-9: #040404;
-    --signature-color: #1d2133;
-    --signature-color-light: #5a6284;
-    --accent-color: #332912;
+
+    --primary-color: #1d2133;
+    --primary-color-light: #5a6284;
+    --secondary-color: #332912;
 }
 
 /*----------------------------------- BASE -----------------------------------*/

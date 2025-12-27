@@ -12,14 +12,14 @@ import ArrowUpIconController from './src/arrow-up/controller/arrowUpIconControll
 const navigationMenuPresenter = NavigationMenuPresenter.createNavigationMenuPresenter();
 const navmenuController = NavmenuController.createNavmenuController();
 const togglerMenuUseCases = TogglerMenuUseCases.createTogglerMenuUseCases(
-    navigationMenuPresenter,
-    navmenuController,
+	navigationMenuPresenter,
+	navmenuController,
 );
 TogglerMenuController.createTogglerMenuController(togglerMenuUseCases);
 
 const cookieMessagePresenter = CookieMessagePresenter.createCookieMessagePresenter();
 const cookieMessageUseCases = CookieMessageUseCases.createCookieMessageUseCases(
-    cookieMessagePresenter,
+	cookieMessagePresenter,
 );
 CookieMessageController.createCookieMessageController(cookieMessageUseCases);
 
